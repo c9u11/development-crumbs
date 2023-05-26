@@ -7,6 +7,7 @@
 ## 부스러기 목차
 
 1. [개발 부스러기 나눔 방법](https://github.com/c9u11/development-crumbs/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%B6%80%EC%8A%A4%EB%9F%AC%EA%B8%B0%20%EB%82%98%EB%88%94%20%EB%B0%A9%EB%B2%95.md)
+2. [비밀번호 변경에 대한 고찰](https://github.com/c9u11/development-crumbs/blob/main/%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%20%EB%B3%80%EA%B2%BD%EC%97%90%20%EB%8C%80%ED%95%9C%20%EA%B3%A0%EC%B0%B0.md)
 
 
 
