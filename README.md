@@ -6,12 +6,11 @@
 
 ## 부스러기 목차
 
-부스러기가 없습니다.
+1. [개발 부스러기 나눔 방법](https://github.com/c9u11/development-crumbs/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%B6%80%EC%8A%A4%EB%9F%AC%EA%B8%B0%20%EB%82%98%EB%88%94%20%EB%B0%A9%EB%B2%95.md)
 
 
 
 ## 부스러기 나눔
-나눔 방법에 대한 자세한 설명
 
 먹다 남긴 개발 부스러기가 있다면 나눠주세요.
 
