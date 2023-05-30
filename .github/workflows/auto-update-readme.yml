@@ -1,4 +1,4 @@
-name: Auto README Update
+name: Auto Update README
 
 on:
   pull_request:
