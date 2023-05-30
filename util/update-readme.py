@@ -12,7 +12,7 @@ def make_index():
         timestamp_str = time.strftime(  '%Y/%m/%d %H:%M:%S', time.gmtime(os.path.getmtime(file_path)))
         file_name = file_path[5:-3]
         file_link = f'''https://github.com/c9u11/development-crumbs/blob/main/{parse.quote(file_path[2:])}'''
-        index += f'''{timestamp_str} - [{file_name}]({file_link})\n'''
+        index += f'''{timestamp_str} - [{file_name}]({file_link})\n\n'''
     
     return index
 
@@ -30,7 +30,7 @@ def make_read_me(index):
 
 
 
-## [부스러기 나눔](https://github.com/c9u11/development-crumbs/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%B6%80%EC%8A%A4%EB%9F%AC%EA%B8%B0%20%EB%82%98%EB%88%94%20%EB%B0%A9%EB%B2%95.md)
+## [부스러기 나눔](https://github.com/c9u11/development-crumbs/blob/main/md/%EA%B0%9C%EB%B0%9C%20%EB%B6%80%EC%8A%A4%EB%9F%AC%EA%B8%B0%20%EB%82%98%EB%88%94%20%EB%B0%A9%EB%B2%95.md)
 
 먹다 남긴 개발 부스러기가 있다면 나눠주세요.
 
