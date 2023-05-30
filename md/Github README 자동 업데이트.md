@@ -328,3 +328,12 @@ jobs:
 
   차례로 실행되는 명령 모음
 
+
+
+
+
+## Github Action Permission
+
+### workflow permissions setting
+
+![image](https://github.com/c9u11/development-crumbs/assets/29428714/633f6529-8e63-4688-b7cc-0491b68e7de7)
