@@ -7,7 +7,7 @@ def make_index():
     index = ""
     dir_name = './md/*'
     file_list = glob.glob(dir_name)
-    
+    file_list.sort(key=os.path.getmtime, reverse=True)
     for file_path in file_list:
         timestamp_str = time.strftime(  '%Y/%m/%d %H:%M:%S', time.gmtime(os.path.getmtime(file_path)))
         file_name = file_path[5:-3]
@@ -45,9 +45,9 @@ def make_read_me(index):
 
 
 def update_readme_md():
-    return make_read_me(make_index())
-
-if __name__ == "__main__":
-    readme = update_readme_md()
+    readme = make_read_me(make_index())
     with open("./README.md", 'w', encoding='utf-8') as f:
         f.write(readme)
+
+if __name__ == "__main__":
+    update_readme_md()
