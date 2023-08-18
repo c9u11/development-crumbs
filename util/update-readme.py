@@ -10,7 +10,8 @@ INDEX_STRING = '## 부스러기 목차\n'
 
 def format_index(pr):
     index = INDEX_STRING
-    index += f'''{pr['datetime']} - [{pr['title']}]({pr['body']}) : {pr['user']}\n\n'''
+    file_link = f'''https://github.com/c9u11/development-crumbs/blob/main/{pr['title']}'''
+    index += f'''{pr['datetime']} - [{pr['title']}]({parse.quote(file_link)}) : {pr['user']}\n\n'''
 
     return index
 
@@ -29,9 +30,8 @@ def update_readme_md(new):
 if __name__ == "__main__":
     pr = {
         'title': sys.argv[1],
-        'body': sys.argv[2],
-        'datetime': sys.argv[3],
-        'user': sys.argv[4]
+        'datetime': sys.argv[2],
+        'user': sys.argv[3]
     }
     old_readme = get_readme_md()
     new_readme = old_readme.replace(INDEX_STRING, format_index(pr))
