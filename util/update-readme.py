@@ -1,7 +1,6 @@
-import glob
-import os
-import time
+from datetime import datetime
 import sys
+import pytz
 from urllib import parse
 
 README_FILE_PATH = "./README.md"
@@ -10,9 +9,8 @@ INDEX_STRING = '## 부스러기 목차\n'
 
 def format_index(pr):
     index = INDEX_STRING
-    file_link = f'''https://github.com/c9u11/development-crumbs/blob/main/{pr['title']}'''
+    file_link = f'''https://github.com/c9u11/development-crumbs/blob/main/{pr['title']}.md'''
     index += f'''{pr['datetime']} - [{pr['title']}]({parse.quote(file_link)}) : {pr['user']}\n\n'''
-
     return index
 
 
@@ -26,11 +24,18 @@ def update_readme_md(new):
     with open(README_FILE_PATH, 'w') as file:
         file.write(new)
 
+def utc_to_korea(utc_time_str):
+    utc_datetime = datetime.strptime(utc_time_str, "%Y-%m-%dT%H:%M:%SZ")
+    korea_tz = pytz.timezone('Asia/Seoul')
+    utc_datetime = pytz.utc.localize(utc_datetime)
+    korea_datetime = utc_datetime.astimezone(korea_tz)
+    korea_datetime = korea_datetime.strftime("%Y-%m-%d %H:%M:%S")
+    return korea_datetime
 
 if __name__ == "__main__":
     pr = {
         'title': sys.argv[1],
-        'datetime': sys.argv[2],
+        'datetime': utc_to_korea(sys.argv[2]),
         'user': sys.argv[3]
     }
     old_readme = get_readme_md()
