@@ -21,6 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install pytz
     - name: Run Python Script
       run: |
         python util/update-readme.py "${{ github.event.pull_request.title }}" "${{ github.event.pull_request.merged_at }}" "${{ github.event.pull_request.user.login }}"
