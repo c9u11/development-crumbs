@@ -23,7 +23,7 @@ jobs:
         python -m pip install --upgrade pip
     - name: Run Python Script
       run: |
-        python util/update-readme.py "${{ github.event.pull_request.title }}" "${{ github.event.pull_request.body}}" "${{ github.event.pull_request.merged_at }}" "${{ github.event.pull_request.user.login }}"
+        python util/update-readme.py "${{ github.event.pull_request.title }}" "${{ github.event.pull_request.merged_at }}" "${{ github.event.pull_request.user.login }}"
     - name: Commit Changes
       run: |
         git add .
