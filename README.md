@@ -6,6 +6,8 @@
 
 
 ## 부스러기 목차
+2023-08-21 16:31:37 - [DAO_DTO_VO](https://github.com/c9u11/development-crumbs/blob/main/md/DAO_DTO_VO.md) : [c9u11](https://githuc.com/c9u11)
+
 2023-08-18 16:24:23 - [README 자동 업데이트 테스트 파일](https://github.com/c9u11/development-crumbs/blob/main/md/README%20%EC%9E%90%EB%8F%99%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%ED%8C%8C%EC%9D%BC.md) : c9u11
 
 2023-05-30 03:17:48 - [Github README 자동 업데이트](https://github.com/c9u11/development-crumbs/blob/main/md/Github%20README%20%EC%9E%90%EB%8F%99%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8.md)
