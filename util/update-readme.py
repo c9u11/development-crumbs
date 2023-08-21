@@ -10,7 +10,8 @@ INDEX_STRING = '## 부스러기 목차\n'
 def format_index(pr):
     index = INDEX_STRING
     file_link = f'''https://github.com/c9u11/development-crumbs/blob/main/md/{parse.quote(pr['title'])}.md'''
-    index += f'''{pr['datetime']} - [{pr['title']}]({file_link}) : {pr['user']}\n\n'''
+    user_link = f'''https://githuc.com/{pr['user']}'''
+    index += f'''{pr['datetime']} - [{pr['title']}]({file_link}) : [{pr['user']}]({user_link})\n\n'''
     return index
 
 
