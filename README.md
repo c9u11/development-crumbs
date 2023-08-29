@@ -6,6 +6,8 @@
 
 
 ## 부스러기 목차
+2023-08-29 20:28:35 - [:bug: 오라클 클라우드 계정 만들기, live chat으로 해봤지만 실패](https://github.com/c9u11/development-crumbs/blob/main/md/%3Abug%3A%20%EC%98%A4%EB%9D%BC%ED%81%B4%20%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20%EA%B3%84%EC%A0%95%20%EB%A7%8C%EB%93%A4%EA%B8%B0%2C%20live%20chat%EC%9C%BC%EB%A1%9C%20%ED%95%B4%EB%B4%A4%EC%A7%80%EB%A7%8C%20%EC%8B%A4%ED%8C%A8.md) : [conggooksi](https://github.com/conggooksi)
+
 2023-08-21 17:10:37 - [EC2 대신 Lambda로 클라우드 서버를 만들어보자](https://github.com/c9u11/development-crumbs/blob/main/md/EC2%20%EB%8C%80%EC%8B%A0%20Lambda%EB%A1%9C%20%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20%EC%84%9C%EB%B2%84%EB%A5%BC%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90.md) : [conggooksi](https://github.com/conggooksi)
 
 2023-08-21 16:31:37 - [DAO_DTO_VO](https://github.com/c9u11/development-crumbs/blob/main/md/DAO_DTO_VO.md) : [c9u11](https://github.com/c9u11)
