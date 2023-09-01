@@ -16,3 +16,6 @@ AWS에서도 Lambda 서비스를 하고 있지만,<br>
 - live chat으로 문의 하여 url을 받았고 해당 url에 접속하여 내 정보를 입력하였다.<br>
   그 후 24시간 이내에 회신을 준다는 메일을 받았지만 이틀 쯤 후 회신이 왔고 내용은 Unfortunately 하게 reject됐다는 것 이었다.
 - 이후 다시 live chat을 했고 진행되는 동안 여러번 하지말고 기다리라는 안내를 받았다.(3번째 시도 후 live chat으로)
+
+- 10일 이후에 다시 시도해보라는 말인줄 알았는데 다시 보니 within 10days였다. 10일 이내에 답장을 달라는 말인가 싶어 답장을 보냈다.
+![스크린샷 2023-08-30 오전 9 56 13](https://github.com/conggooksi/development-crumbs/assets/96610085/56deebac-6b28-4b7e-a4e8-fb65b45f724c)
