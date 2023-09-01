@@ -6,8 +6,6 @@
 
 
 ## 부스러기 목차
-2023-09-01 19:25:32 - [Update EC2 대신 Lambda로 클라우드 서버를 만들어보자](https://github.com/c9u11/development-crumbs/blob/main/md/Update%20EC2%20%EB%8C%80%EC%8B%A0%20Lambda%EB%A1%9C%20%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20%EC%84%9C%EB%B2%84%EB%A5%BC%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90.md) : [c9u11](https://github.com/c9u11)
-
 2023-08-21 17:10:37 - [EC2 대신 Lambda로 클라우드 서버를 만들어보자](https://github.com/c9u11/development-crumbs/blob/main/md/EC2%20%EB%8C%80%EC%8B%A0%20Lambda%EB%A1%9C%20%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20%EC%84%9C%EB%B2%84%EB%A5%BC%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90.md) : [conggooksi](https://github.com/conggooksi)
 
 2023-08-21 16:31:37 - [DAO_DTO_VO](https://github.com/c9u11/development-crumbs/blob/main/md/DAO_DTO_VO.md) : [c9u11](https://github.com/c9u11)
